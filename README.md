@@ -1,5 +1,11 @@
 # PdfGame
 
+How to play the game:
+1. Click on the below URL and download the PDF File.
+2. Click on start to Play "Tetris Block" game.
+   
+https://github.com/Chandra953/PdfGame/blob/main/out.pdf
+
 ## Overview
 This project demonstrates how to abuse PDF field objects to render a monochrome grid and create an interactive experience where users can input values into text fields. The solution leverages the rendering capabilities of PDFium (used in Chromium-based browsers) and PDF.js (used in Firefox). 
 
@@ -42,13 +48,13 @@ The script generates a PDF with a grid by:
 ---
 
 ## Usage
-1. Open the provided Python script (`interactive_grid_generator.py`).
+1. Open the provided Python script (`PdfGame.py`).
 2. Customize the grid dimensions and file paths as needed (refer to the "Customization" section below).
 3. Run the script:
    ```bash
-   python interactive_grid_generator.py
+   python PdfGame.py
    ```
-4. Open the generated PDF (`interactive_grid.pdf`) in a compatible viewer like Chrome or Firefox.
+4. Open the generated PDF (`out.pdf`) in a compatible viewer like Chrome or Firefox.
 
 ---
 
@@ -70,13 +76,13 @@ cell_height = 40  # Height of each cell (in points)
 ### File Paths
 Change the output PDF file name if required:
 ```python
-output_file = "interactive_grid.pdf"
+output_file = "out.pdf"
 ```
 
 ---
 
 ## Testing
-Open the `interactive_grid.pdf` in:
+Open the `out.pdf` in:
 1. **Chrome (PDFium):** Interactive fields and grid rendering should work seamlessly.
 2. **Firefox (PDF.js):** Similar behavior as Chrome.
 3. **Adobe Acrobat (Optional):** May require adjustments for full compatibility.
